@@ -1,6 +1,10 @@
-#hocam burada hayali bir ürün listesi oluşturup market uygulamamı o listeyi baz alarak çalıştıracağım
-#barkod kısmını uygulamanın gerçeğe yakın olması için ekledim tabiki bizim barkod girdimiz olmadığı için işlemleri ürün kodları üzerinden yürüteceğiz
-#ürünler listesinde 10 adet hayali ürün ve ürünlere rastgele kodlar verdim
+#Bu projede sözlük,liste,while döngüsü,break ifadesi,if-else-elif koşul blokları,çeşitli operatörler,print ve input fonksiyonu farklı türde değişkenler kullanılmıştır.
+#Hocam burada hayali bir ürün listesi oluşturup market uygulamamı o listeyi baz alarak çalıştıracağım (8.satır).
+#Döngüden etkilenmemesi için döngünün dışına ürün sepetimi liste şeklinde oluşturdum (9.satır).
+#Temel seviye yazmak yerine biraz daha kullanıcı dostu olması için kodlarımda string ifadelere sıklıkla yer vererek kullanıcıyı bilgilendirdim.
+#Barkod kısmını uygulamanın gerçeğe yakın olması için ekledim tabiki bizim barkod girdimiz olmadığı için işlemleri ürün kodları üzerinden yürüteceğiz.
+#Kullanan kasiyer ürün kodu bilgileri ekranı ile ürünlerin kodlarını görebilir ürün kodu giriş ekranı ile kodunu girdiği ürünleri sepete ekleyebilir.
+#Sepet sorgulama işlemleri menüsü ile sepete eklediği ürünleri görebilir sepeti boşaltabilir.
 ürünler={"3214":"Süt","2314":"Ekmek","6341":"Elma","7413":"Et","3061":"Peynir","1732":"Yumurta","1690":"Su","6433":"Kuruyemiş","2603":"Sigara","1010":"Alkol"}
 sepet=[]
 print("**********************************")
@@ -43,5 +47,4 @@ while True:
                 break
     elif(işlem==5):#Buranın işi bitti
         break
-
 print("Çıkış yapılıyor...")
